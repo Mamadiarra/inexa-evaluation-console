@@ -1,11 +1,13 @@
 package com.inexa.evaluation.core.evaluation.domaine.entite;
 
+import java.io.Serializable;
+
 /**
  * <p>Entité domaine {@link Imprevu}.</p>
  *
  * @author DIARRA MAMADOU 2020-08-04
  */
-public class Imprevu extends Prolongation{
+public class Imprevu extends Prolongation implements Serializable {
 
   public Imprevu() {
   }

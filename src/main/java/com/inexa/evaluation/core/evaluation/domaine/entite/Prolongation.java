@@ -1,5 +1,6 @@
 package com.inexa.evaluation.core.evaluation.domaine.entite;
 
+import java.io.Serializable;
 import java.util.Objects;
 import java.util.UUID;
 
@@ -8,7 +9,7 @@ import java.util.UUID;
  *
  * @author DIARRA MAMADOU 2020-08-04
  */
-public class Prolongation {
+public class Prolongation implements Serializable {
 
   protected UUID id;
   protected String motif;
